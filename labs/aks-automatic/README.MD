@@ -11,6 +11,7 @@ Azure Kubernetes Service (AKS) Automatic offers an experience that makes the mos
 - [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) installed
 - [An Azure Subscription](https://azure.microsoft.com/en-us/free/) with Contributor permissions
 - [Sign in to Azure with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli-interactively)
+- [kubectl](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-cluster?tabs=azure-cli#install-the-kubernetes-cli) command line tool
 
 ### 🚀 Get started
 Proceed by opening the [Jupyter notebook](aks-automatic.ipynb), and follow the steps provided.
