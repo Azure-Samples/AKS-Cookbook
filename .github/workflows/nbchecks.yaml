@@ -3,11 +3,11 @@ name: notebook-checks
 on:
   pull_request:
     paths:
-      - "*.ipynb"
+      - "**/*.ipynb"
     branches: [main]
   push:
     paths:
-      - "*.ipynb"
+      - "**/*.ipynb"
     branches: [main]
   
 permissions:
