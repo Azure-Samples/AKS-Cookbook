@@ -1,10 +1,11 @@
 # AKS Cookbook
 
-## 🧪 AKS Quickstart with Azure CLI lab
+## 🧪 AKS with OpenAI
 
 ![visual](visual.png)
 
-Use this lab to quickly provision an AKS cluster using the Azure CLI and deploy a sample application. It's based on the official [AKS documentation](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli).
+Use this lab to quickly Deploy an application that uses OpenAI on Azure Kubernetes Service (AKS).  
+It's based on the official [AKS documentation](https://learn.microsoft.com/en-us/azure/aks/open-ai-quickstart?tabs=aoai).  
 
 ### Prerequisites
 
@@ -17,7 +18,7 @@ Use this lab to quickly provision an AKS cluster using the Azure CLI and deploy 
 
 ### 🚀 Get started
 
-Proceed by opening the [Jupyter notebook](aks-quickstart-cli.ipynb), and follow the steps provided.
+Proceed by opening the [Jupyter notebook](aks-quickstart-bicep.ipynb), and follow the steps provided.
 
 ### 🗑️ Clean up resources
 

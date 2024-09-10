@@ -1,10 +1,11 @@
 # AKS Cookbook
 
-## 🧪 AKS Quickstart with Azure CLI lab
+## 🧪 Zero to JupyterHub with AKS
 
 ![visual](visual.png)
 
-Use this lab to quickly provision an AKS cluster using the Azure CLI and deploy a sample application. It's based on the official [AKS documentation](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli).
+JupyterHub allows users to interact with a computing environment through a webpage. As most devices have access to a web browser, JupyterHub makes it is easy to provide and standardize the computing environment for a group of people (e.g., for a class of students or an analytics team).  
+It's based on the official [Jupyter documentation](https://z2jh.jupyter.org/en/stable/).  
 
 ### Prerequisites
 
@@ -14,10 +15,11 @@ Use this lab to quickly provision an AKS cluster using the Azure CLI and deploy 
 - [An Azure Subscription](https://azure.microsoft.com/en-us/free/) with Contributor permissions. If you don't have an Azure subscription, create an [Azure free account](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount) before you begin.
 - [Sign in to Azure with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli-interactively) and select the Azure Subscription that you want to use in this lab.
 - [Install kubectl](https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-install-cli), the Kubernetes command-line tool.
+- [Install helm](https://helm.sh/).
 
 ### 🚀 Get started
 
-Proceed by opening the [Jupyter notebook](aks-quickstart-cli.ipynb), and follow the steps provided.
+Proceed by opening the [Jupyter notebook](aks-jupyterhub.ipynb), and follow the steps provided.
 
 ### 🗑️ Clean up resources
 

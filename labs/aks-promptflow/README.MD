@@ -1,10 +1,12 @@
 # AKS Cookbook
 
-## 🧪 AKS Quickstart with Azure CLI lab
+## 🧪 Prompt Flow on AKS
 
 ![visual](visual.png)
 
-Use this lab to quickly provision an AKS cluster using the Azure CLI and deploy a sample application. It's based on the official [AKS documentation](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli).
+Playground to try the [Azure AI Studio Prompt Flow](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow) with AKS.  
+Prompt flow is a development tool designed to streamline the entire development cycle of AI applications powered by Large Language Models (LLMs). Prompt flow provides a comprehensive solution that simplifies the process of prototyping, experimenting, iterating, and deploying your AI applications.  
+Prompt flow is available independently as an open-source project on [GitHub](https://github.com/microsoft/promptflow).
 
 ### Prerequisites
 
@@ -17,7 +19,7 @@ Use this lab to quickly provision an AKS cluster using the Azure CLI and deploy 
 
 ### 🚀 Get started
 
-Proceed by opening the [Jupyter notebook](aks-quickstart-cli.ipynb), and follow the steps provided.
+Proceed by opening the [Jupyter notebook](aks-promptflow.ipynb), and follow the steps provided.
 
 ### 🗑️ Clean up resources
 

@@ -1,3 +1,5 @@
+# to run locally, use the following command in the root folder of the repository:python .github/workflows/nbchecks.py
+
 import json, sys, os
 from pathlib import Path
 
@@ -19,3 +21,4 @@ for file in Path(".").glob('**/*.ipynb'):
 if exit_code == 0:
     print("All good. No stored output found.")
 sys.exit(exit_code)
+

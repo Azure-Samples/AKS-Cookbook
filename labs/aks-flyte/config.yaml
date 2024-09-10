@@ -1,0 +1,5 @@
+
+admin:
+  # For GRPC endpoints you might want to use dns:///flyte.myexample.com
+  endpoint: dns:///flyte22.eastus2.cloudapp.azure.com
+  insecure: false # Set to false to enable TLS/SSL connection (not recommended except on local sandbox deployment).

@@ -1,10 +1,11 @@
 # AKS Cookbook
 
-## 🧪 AKS Quickstart with Azure CLI lab
+## 🧪 AI-Driven Security Threat Detection and Response in AKS
 
 ![visual](visual.png)
 
-Use this lab to quickly provision an AKS cluster using the Azure CLI and deploy a sample application. It's based on the official [AKS documentation](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli).
+This lab is designed to assist engineers in setting up an AI-driven security threat detection and response system within an Azure Kubernetes Service (AKS) environment. This document includes CLI commands, code snippets, and configuration details to ensure smooth implementation and robust security monitoring.  
+This lab based on this [public GitHub repo](https://github.com/gkaleta/AI-Driven-Security-Threat-Detection-and-Response-in-Kubernetes-on-Azure).
 
 ### Prerequisites
 
@@ -14,10 +15,11 @@ Use this lab to quickly provision an AKS cluster using the Azure CLI and deploy 
 - [An Azure Subscription](https://azure.microsoft.com/en-us/free/) with Contributor permissions. If you don't have an Azure subscription, create an [Azure free account](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount) before you begin.
 - [Sign in to Azure with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli-interactively) and select the Azure Subscription that you want to use in this lab.
 - [Install kubectl](https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-install-cli), the Kubernetes command-line tool.
+- [Install helm](https://helm.sh/).
 
 ### 🚀 Get started
 
-Proceed by opening the [Jupyter notebook](aks-quickstart-cli.ipynb), and follow the steps provided.
+Proceed by opening the [Jupyter notebook](aks-falco.ipynb), and follow the steps provided.
 
 ### 🗑️ Clean up resources
 

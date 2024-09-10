@@ -1,6 +1,8 @@
 # AKS Cookbook
 
-## AKS Quickstart with BICEP lab
+## 🧪 AKS Quickstart with BICEP lab
+
+![visual](visual.png)
 
 Use this lab to quickly provision an AKS cluster using BICEP and deploy a sample application to explore Kubernetes concepts. It's based on the official [AKS documentation](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-bicep?tabs=azure-cli).  
 

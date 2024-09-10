@@ -1,10 +1,11 @@
 # AKS Cookbook
 
-## 🧪 AKS Quickstart with Azure CLI lab
+## 🧪 Flyte on AKS to build and deploy data and machine learning pipelines
 
 ![visual](visual.png)
 
-Use this lab to quickly provision an AKS cluster using the Azure CLI and deploy a sample application. It's based on the official [AKS documentation](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli).
+[Flyte](https://docs.flyte.org/en/latest/introduction.html) is an open-source workflow orchestrator that unifies machine learning, data engineering, and data analytics stacks to help you build robust and reliable applications. When using Flyte as a Kubernetes-native workflow automation tool, you can focus on experimentation and providing business value without increasing your scope to infrastructure and resource management. Keep in mind that Flyte isn't officially supported by Microsoft, so use it at your own discretion.  
+This lab is based on the official [AKS documentation](https://learn.microsoft.com/en-us/azure/aks/use-flyte).
 
 ### Prerequisites
 
@@ -14,10 +15,11 @@ Use this lab to quickly provision an AKS cluster using the Azure CLI and deploy 
 - [An Azure Subscription](https://azure.microsoft.com/en-us/free/) with Contributor permissions. If you don't have an Azure subscription, create an [Azure free account](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount) before you begin.
 - [Sign in to Azure with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli-interactively) and select the Azure Subscription that you want to use in this lab.
 - [Install kubectl](https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-install-cli), the Kubernetes command-line tool.
+- flytekit and flytectl installed. For more information, see [Flyte installation](https://flyte-next.readthedocs.io/en/latest/introduction.html#installation).
 
 ### 🚀 Get started
 
-Proceed by opening the [Jupyter notebook](aks-quickstart-cli.ipynb), and follow the steps provided.
+Proceed by opening the [Jupyter notebook](aks-flyte.ipynb), and follow the steps provided.
 
 ### 🗑️ Clean up resources
 

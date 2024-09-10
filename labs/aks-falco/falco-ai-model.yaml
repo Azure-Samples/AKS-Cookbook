@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: falco-ai-model
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: falco-ai
+  template:
+    metadata:
+      labels:
+        app: falco-ai
+    spec:
+      containers:
+      - name: falco-ai-container
+        image: {acr_resource_name}.azurecr.io/falco-ai-model:latest
+        ports:
+        - containerPort: 8080
