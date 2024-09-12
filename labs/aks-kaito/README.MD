@@ -1,11 +1,12 @@
 # AKS Cookbook
 
-## AKS Automatic lab
+## 🧪 Kubernetes AI Toolchain Operator (KAITO) lab
 
 ![visual](visual.png)
 
-Azure Kubernetes Service (AKS) Automatic offers an experience that makes the most common tasks on Kubernetes fast and frictionless, while preserving the flexibility, extensibility, and consistency of Kubernetes. Azure takes care of your cluster setup, including node management, scaling, security, and preconfigured settings that follow AKS well-architected recommendations. Automatic clusters dynamically allocate compute resources based on your specific workload requirements and are tuned for running production applications.  
-This lab is based on the official [AKS documentation](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-automatic-deploy?pivots=bicep).  
+Kaito is an operator that automates the AI/ML model inference or tuning workload in a Kubernetes cluster. The target models are popular open-sourced large models such as falcon and phi-3. 
+In this lab we explore the workflow of onboarding large AI inference models in Kubernetes with Kaito.  
+It's based on the official [AKS documentation](https://learn.microsoft.com/en-us/azure/aks/ai-toolchain-operator).  
 
 ### Prerequisites
 
@@ -15,11 +16,11 @@ This lab is based on the official [AKS documentation](https://learn.microsoft.co
 - [An Azure Subscription](https://azure.microsoft.com/en-us/free/) with Contributor permissions. If you don't have an Azure subscription, create an [Azure free account](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount) before you begin.
 - [Sign in to Azure with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli-interactively) and select the Azure Subscription that you want to use in this lab.
 - [Install kubectl](https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-install-cli), the Kubernetes command-line tool.
-- [Install kubelogin](https://azure.github.io/kubelogin/install.html), to login on Azure AD enabled AKS clusters.
+- [Install helm](https://helm.sh/).
 
 ### 🚀 Get started
 
-Proceed by opening the [Jupyter notebook](aks-automatic.ipynb), and follow the steps provided.
+Proceed by opening the [Jupyter notebook](aks-kaito.ipynb), and follow the steps provided.
 
 ### 🗑️ Clean up resources
 

@@ -1,11 +1,12 @@
 # AKS Cookbook
 
-## AKS Automatic lab
+## 🧪 Prompt Flow on AKS
 
 ![visual](visual.png)
 
-Azure Kubernetes Service (AKS) Automatic offers an experience that makes the most common tasks on Kubernetes fast and frictionless, while preserving the flexibility, extensibility, and consistency of Kubernetes. Azure takes care of your cluster setup, including node management, scaling, security, and preconfigured settings that follow AKS well-architected recommendations. Automatic clusters dynamically allocate compute resources based on your specific workload requirements and are tuned for running production applications.  
-This lab is based on the official [AKS documentation](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-automatic-deploy?pivots=bicep).  
+Playground to try the [Azure AI Studio Prompt Flow](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow) with AKS.  
+Prompt flow is a development tool designed to streamline the entire development cycle of AI applications powered by Large Language Models (LLMs). Prompt flow provides a comprehensive solution that simplifies the process of prototyping, experimenting, iterating, and deploying your AI applications.  
+Prompt flow is available independently as an open-source project on [GitHub](https://github.com/microsoft/promptflow).
 
 ### Prerequisites
 
@@ -15,11 +16,10 @@ This lab is based on the official [AKS documentation](https://learn.microsoft.co
 - [An Azure Subscription](https://azure.microsoft.com/en-us/free/) with Contributor permissions. If you don't have an Azure subscription, create an [Azure free account](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount) before you begin.
 - [Sign in to Azure with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli-interactively) and select the Azure Subscription that you want to use in this lab.
 - [Install kubectl](https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-install-cli), the Kubernetes command-line tool.
-- [Install kubelogin](https://azure.github.io/kubelogin/install.html), to login on Azure AD enabled AKS clusters.
 
 ### 🚀 Get started
 
-Proceed by opening the [Jupyter notebook](aks-automatic.ipynb), and follow the steps provided.
+Proceed by opening the [Jupyter notebook](aks-promptflow.ipynb), and follow the steps provided.
 
 ### 🗑️ Clean up resources
 
